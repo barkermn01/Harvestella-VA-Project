@@ -45,6 +45,11 @@
 			"Name": "SQEXSEADEvent",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SQEXSEADEd",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
 		}
 	]
 }

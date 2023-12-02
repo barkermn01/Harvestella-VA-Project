@@ -34,6 +34,10 @@
 			"Enabled": false
 		},
 		{
+			"Name": "SQEXSEAD",
+			"Enabled": true
+		},
+		{
 			"Name": "OnlineSubsystemGooglePlay",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [

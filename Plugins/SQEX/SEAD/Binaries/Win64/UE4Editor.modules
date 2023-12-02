@@ -4,6 +4,7 @@
 	{
 		"SQEXSEAD": "UE4Editor-SQEXSEAD.dll",
 		"SQEXSEADAnimNotifies": "UE4Editor-SQEXSEADAnimNotifies.dll",
+		"SQEXSEADEd": "UE4Editor-SQEXSEADEd.dll",
 		"SQEXSEADEvent": "UE4Editor-SQEXSEADEvent.dll",
 		"SQEXSEADMusic": "UE4Editor-SQEXSEADMusic.dll",
 		"SQEXSEADSequencerTracks": "UE4Editor-SQEXSEADSequencerTracks.dll",

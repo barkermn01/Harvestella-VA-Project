@@ -5,6 +5,8 @@
 #include "SQEXSEADSoundInfo.h"
 #include "SQEXSEADStreamingBufferSettings.h"
 #include "SQEXSEADSectionInfo.h"
+#include "Serialization/BulkData.h"
+#include "Serialization/MemoryWriter.h"
 #include "SQEXSEADSoundBank.generated.h"
 
 class USQEXSEADSoundAttenuation;
@@ -33,7 +35,15 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     USQEXSEADSoundAttenuation* BankOverrideAttenuation;
+
+    TArray<FName> Platforms;
+
+   
+    FByteBulkData RawData;
+
     
-    USQEXSEADSoundBank();
+    virtual void Serialize(FArchive& Ar) override;
+    
+    USQEXSEADSoundBank(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -128,7 +128,9 @@
 *.pdb
 
 
-# Ignore content folders
+# Don't ignore content folders or UML
+!/Content/**
+!/UML/**
 
 
 # Ignore intermediate folders
